@@ -1,0 +1,69 @@
+{
+  "name": "georgina-reviews",
+  "version": "1.0.0",
+  "description": "",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon ./server/index.js",
+    "eslint-init": "eslint --init",
+    "eslint": "eslint ./server ./client/src ./database; exit 0",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirbnBusy/georgina-reviews.git"
+  },
+  "keywords": [],
+  "author": "Georgina Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirbnBusy/georgina-reviews/issues"
+  },
+  "homepage": "https://github.com/AirbnBusy/georgina-reviews#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-react-config": "0.0.2",
+    "eslint-react-props-in-state-plugin": "^1.0.0",
+    "faker": "^4.1.0",
+    "jest": "^23.1.0",
+    "jest-cli": "^23.1.0",
+    "puppeteer": "^1.4.0",
+    "webpack": "^2.1.0-beta.22",
+    "webpack-cli": "^3.0.2",
+    "ws": "3.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "enzyme": "^3.3.0",
+    "express": "^4.16.3",
+    "init": "^0.1.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dev": "0.0.1",
+    "react-dom": "^16.4.0",
+    "react-js-pagination": "^3.0.2",
+    "styled-components": "^3.3.2"
+  }
+}

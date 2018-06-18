@@ -1,0 +1,37 @@
+{
+  "name": "theo-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "echo \"Error: no test specified\" && exit 1",
+    "buildhero": "cd theo-hero && webpack --mode development",
+    "buildbookings": "cd sam-booking webpack --mode development",
+    "buildreviews": "cd georgina-reviews webpack --mode development",
+    "buildlistings": "cd rus-similar-listings && webpack --mode development",
+    "build": "npm run buildhero & npm run buildbookings & npm run buildreviews & npm run buildlistings",
+    "heros": "cd theo-hero && npm run server",
+    "bookingss": "cd sam-booking && npm start",
+    "reviewss": "cd georgina-reviews && npm start",
+    "listingss": "cd rus-similar-listings && npm start",
+    "server": "nodemon ./proxy/server.js",
+    "proxys": "npm run heros & npm run bookingss & npm run reviewss & npm run listingss & npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirbnBusy/theo-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirbnBusy/theo-proxy/issues"
+  },
+  "homepage": "https://github.com/AirbnBusy/theo-proxy#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

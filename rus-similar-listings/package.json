@@ -1,0 +1,49 @@
+{
+  "name": "airbnbusy-similar-listings-module",
+  "version": "1.0.0",
+  "description": "Recreating Airbnb's similar listings front-end module on the listings page.",
+  "author": "Ruslan Farutdinov",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "eslint-init": "eslint --init",
+    "eslint": "eslint ./server ./client/src ./database; exit 0",
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon ./server/server.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.251.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-stars": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "jest": "^23.1.0",
+    "nodemon": "^1.17.5",
+    "style-loader": "^0.21.0",
+    "supertest": "^3.1.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  }
+}

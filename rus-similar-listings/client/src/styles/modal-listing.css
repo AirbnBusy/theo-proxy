@@ -1,0 +1,43 @@
+.container {
+  width: 504px;
+  position: absolute;
+  bottom: 0px;
+  padding: 24px 0px;
+  border-top: 1px solid #d2d4d8;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img {
+  width: 104px;
+  height: 80px;
+}
+
+.infoContainer {
+  padding-left: 16px;
+  color: #484848;
+}
+
+.info {
+  padding-bottom: 10px;
+}
+
+.location {
+  padding-bottom: 10px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.starsAndReviews {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.stars {
+  display: inline;
+}
+
+.reviews {
+  margin: 0px 3px;
+  font-weight: lighter;
+}

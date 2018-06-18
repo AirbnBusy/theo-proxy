@@ -1,0 +1,156 @@
+.modalBackground {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: 65px auto;
+  padding: 32px;
+  width: 504px;
+  height: 609px;
+  position: relative;
+}
+
+.closeButton {
+  background-color: transparent;
+  border: none;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.closeImg {
+  width: 16px;
+  height: 16px;
+}
+
+.modalHeader {
+  color: #424447;
+  margin-bottom: 24px;
+  font-size: 19px;
+}
+
+.facebookButton {
+  width: 100%;
+  height: 49px;
+  border: 2px solid #3B5998;
+  border-radius: 4px;
+  padding: 0 24px;
+  background-color: #3B5998;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.facebookImg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.facebookText {
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 8px;
+  color: white;
+}
+
+.googleButton {
+  width: 100%;
+  height: 49px;
+  border: 2px solid #545a63;
+  border-radius: 4px;
+  padding: 0px 24px;
+  cursor: pointer;
+}
+
+.googleImg {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.googleText {
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 16px;
+  font-weight: bold;
+  color: #545a63;
+}
+
+.lineBreakContainer {
+  margin-top: 28px;
+  margin-bottom: 12px;
+  height: 20px;
+}
+
+.line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #d2d4d8;
+  line-height: 0.1em;
+  margin: 0px;
+}
+
+.or {
+  background:#fff;
+  padding: 0 13px;
+  color: rgb(118, 118, 118);
+}
+
+.signUpButton {
+  width: 100%;
+  height: 49px;
+  border: 2px solid rgb(255, 90, 95);
+  border-radius: 4px;
+  padding: 0 24px;
+  background-color: rgb(255, 90, 95);
+  cursor: pointer;
+}
+
+.signUpImg {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.signUpText {
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 16px;
+  color: white;
+}
+
+.longLine {
+  width: 100%;
+  border-bottom: 1px solid #d2d4d8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.loginTextContainer {
+  text-align: center;
+  color: #484848;
+  font-weight: lighter;
+}
+
+.loginText {
+  padding: 0 8px;
+  color: #008489;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* .listing {
+  width: 504px;
+  position: absolute;
+  bottom: 0px;
+} */

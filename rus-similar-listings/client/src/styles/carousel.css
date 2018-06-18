@@ -1,0 +1,9 @@
+.listingsHeader {
+  color: #424447;
+  margin: 19px 0 19px 32px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}

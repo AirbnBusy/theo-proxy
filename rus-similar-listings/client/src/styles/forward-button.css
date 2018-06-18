@@ -1,0 +1,18 @@
+.scrollButton {
+  border: 0px;
+  padding: 0px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.img {
+  width: 25px;
+  height: 25px;
+}
+
+.buttonContainer {
+  display: flex;
+  height: 230px;
+  align-items: center;
+  width: 25px;
+}
